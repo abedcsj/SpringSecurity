@@ -32,6 +32,7 @@ public class AES256Cipher {
 		String enStr = new String(Base64.encodeBase64(encrypted));
 		return enStr;
 	}
+
 	// 복호화
 	public static String AES_Decode(String secretKey, String str)
 			throws java.io.UnsupportedEncodingException, NoSuchAlgorithmException, NoSuchPaddingException,
